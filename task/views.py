@@ -45,7 +45,8 @@ class TaskViewSet(viewsets.ModelViewSet):
                 "completed_task" : completed_tasks,
                 "incompleted_task": incompleted_tasks
             })
-    
+
+ 
 class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
     serializer_class = UserSerializer

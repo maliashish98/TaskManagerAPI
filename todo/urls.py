@@ -30,3 +30,4 @@ urlpatterns = [
     path('api/',include(router.urls)),
     path('api-token-auth/', drf_auth_views.obtain_auth_token, name='api-auth-token') #generate token for user auth
 ]
+
